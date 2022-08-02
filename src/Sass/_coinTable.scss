@@ -1,0 +1,33 @@
+.paginationBttns {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.paginationBttns a {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.previousBttn {
+  color: goldenrod;
+}
+
+.nextBttn {
+  color: goldenrod;
+}
+
+.paginationDisabled {
+}
+
+.paginationActive {
+  background-color: goldenrod;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
