@@ -3,9 +3,9 @@ import { Outlet } from "react-router-dom";
 
 function Coins() {
   return (
-    <div>
+    <>
       <Outlet />
-    </div>
+    </>
   );
 }
 
