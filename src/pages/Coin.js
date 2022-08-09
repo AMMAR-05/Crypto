@@ -49,6 +49,7 @@ function Coin() {
           </div>
         )}
       </div>
+      <div>Chart</div>
     </div>
   );
 }
