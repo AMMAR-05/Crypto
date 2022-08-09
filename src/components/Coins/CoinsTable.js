@@ -14,7 +14,7 @@ function CoinsList() {
   const visitedPages = pageNumber * showPerPage;
 
   // Classes variable
-  const tdClasses = "h-16 text-center px-7 whitespace-nowrap";
+  const tdClasses = "h-14 text-center px-7 whitespace-nowrap";
   const thClasses = "";
 
   // Dispatch get all coins function
@@ -97,7 +97,7 @@ function CoinsList() {
 
   return (
     <>
-      <div className="overflow-auto  md:text-xs lg:text-lg text-xs pt-5">
+      <div className="overflow-auto md:text-xs lg:text-lg text-xs pt-5">
         <table className="w-full border-collapse ">
           <thead>
             <tr>

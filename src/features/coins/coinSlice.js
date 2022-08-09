@@ -30,11 +30,11 @@ const coinSlice = createSlice({
       window.localStorage.setItem("image", state.coin.image.thumb);
       window.localStorage.setItem(
         "currentPrice",
-        state.coin.market_data.current_price.usd
+        state.coin.market_data.current_price.usd.toLocaleString()
       );
       window.localStorage.setItem(
         "percentage_24h",
-        state.coin.market_data.price_change_percentage_24h
+        state.coin.market_data.price_change_percentage_24h.toFixed(2)
       );
     });
 

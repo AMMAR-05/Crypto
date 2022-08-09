@@ -16,7 +16,7 @@ function TrendingCoins() {
 
   return (
     <>
-      <div className="py-7 px-10 sm:px-5">
+      <div className="pt-14 pb-3 px-10 sm:px-5">
         <h2 className="text-2xl font-extrabold">TRENDING</h2>
         <div className="mt-6 grid grid-cols-3 gap-y-10 gap-x-6 sm:grid-cols-5 lg:grid-cols-7 xl:gap-x-8">
           {allCoinsTrending.map((item) => (
